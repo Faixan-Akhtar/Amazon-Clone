@@ -1,0 +1,339 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    margin: 0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #007185;
+    color: white;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    gap: 5px;
+}
+
+.border {
+    padding: 5px;
+}
+
+.border :hover{
+    border: 1.5px solid white;
+}
+
+/* for nav-logo */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+    background-image: url(amazonlogo.png.webp);
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    width: 100px;
+}
+
+/* for nav-address */
+.sell{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.buy{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.address-iocn {
+       display: flex;
+       align-items: center;
+       
+}
+
+/* for nav-search */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+.Search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 40px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgba(255, 187, 0, 0.733);
+    border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+     color: black;
+    
+}
+span{
+    font-size: 0.7rem;
+    color: #ffffff;
+}
+.lines{
+    font-size: 0.85rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+.nav-search :hover{
+    border: 2px solid orange;
+} 
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* for pannel-bar */
+.pannel-bar{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.pannel-deals{
+    width: 90%;
+    font-size: 0.85rem;
+ 
+    
+}
+.items{
+    margin-left: 15px;
+}
+/* for hero-section */
+.hero-section{
+    background-image:url(hero-image.png) ;
+    background-size: cover;
+    height: 450px;
+    margin-top: 0.5px;
+}
+
+ /* for shop-section */
+ .shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cccccc;
+    
+ }
+ .shop-section a{
+   color: #007185;
+ }
+ .box{
+    height: 350px;
+    width: 23%;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: white;
+
+ }
+ 
+ 
+ .shop1-pic{
+    background-image:url(health&pesonalcare.jpg);
+    background-size: cover;
+    height: 275px;
+    margin: 5px 10px 5px 10px;
+ }
+ .shop2-pic{
+    background-image: url(gammingcorner.png);
+    background-size: cover;
+    height: 275px;
+    margin: 5px 10px 5px 10px;
+ }
+ .shop3-pic{
+    background-image: url(clothfashion.png);
+    background-size: cover;
+    height: 275px;
+    margin: 5px 10px 5px 10px;
+ }
+ .shop4-pic{
+    background-image: url(kitchenproducts.png);
+    background-size:cover;
+    height: 275px;
+    margin: 5px 10px 5px 10px;
+ }
+ .shop5-pic{
+    background-image: url(electronicproducts.png);
+    background-size: cover;
+    height: 275px;
+    margin: 5px 10px 5px 10px;
+ }
+ .shop6-pic{
+    background-image: url(homedecor.png);
+    background-size: cover;
+    height: 275px;
+    margin: 5px 10px 5px 10px;
+ }
+ .shop7-pic{
+    background-image: url(giftitems.png);
+    background-size: cover;
+    height: 275px;
+    margin: 5px 10px 5px 10px;
+ }
+ .shop8-pic{
+    background-image:url(smartphones.png) ;
+    background-size: cover;
+    height: 275px;
+    margin: 5px 10px 5px 10px;
+ }
+ .shop9-pic{
+    background-image:url(watchescollection.png) ;
+    background-size: cover;
+    height: 275px;
+    margin: 5px 10px 5px 10px;
+ }
+ .shop10-pic{
+    background-image:url(sportitems.png) ;
+    background-size: cover;
+    height: 275px;
+    margin: 5px 10px 5px 10px;
+ }
+ .shop11-pic{
+    background-image:url(shoes.png) ;
+    background-size: cover;
+    height: 275px;
+    margin: 5px 10px 5px 10px;
+ }
+ .shop12-pic{
+    background-image:url(novels.png) ;
+    background-size: cover;
+    height: 275px;
+    margin: 5px 10px 5px 10px;
+ }
+ /* footer area */
+ footer{
+    margin-top: 15px;
+ }
+ .footer-pannel-1{
+    height:50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+ }
+ .footer-pannel-2{
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+   
+ }
+ ul{
+    margin-top: 10px;
+ }
+ ul a{
+    color:#cccccc;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+ }
+ .footer-pannel-3{
+    background-color: #222f3d;
+    color: white;
+    height: 70px;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ .logo{
+    background-image:url(amazonlogo.png.webp) ;
+    background-size: cover;
+   height: 100px;
+   width: 100px;
+   margin-bottom: 20px;
+  
+ }
+ .footer-pannel-4{
+   height: 80px;
+   background-color:black;
+   color: white;
+   text-align: center;
+  
+ }
+ .pages{
+   font-size: 0.7rem;
+  padding-top: 25px;
+ }
+ .copyrights{
+font-size: 0.7rem;
+padding-top: 10px;
+ }
+
+ @media (max-width: 900px) {
+    .box {
+        width: 45%;
+    }
+}
+
+/* RESPONSIVE BREAKPOINTS */
+
+/* Tablet */
+@media (max-width: 900px) {
+    .box {
+        width: 45%;
+    }
+}
+
+/* Mobile */
+ @media (max-width: 600px) {
+    .nav-search {
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .hero-section {
+        height: 200px;
+    }
+} 
+
+
+
+
